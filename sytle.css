@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: calibri;
+  font-size: 1rem;
+  text-align: justify;
+}
+
+.home-header {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("/images/1.jpg");
+  background-size: cover;
+}
+.navbar-brand {
+  letter-spacing: 1px;
+  font-size: 2rem;
+  font-weight: 700;
+  padding-left: 5rem;
+}
+
+.navbar-nav .nav-link {
+  padding-right: 2.5rem !important ;
+}
+
+.navbar-brand,
+.nav-link,
+.name,
+.profession {
+  color: white !important;
+}
+
+.profile-pic {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+/* about section sytling */
+
+.about {
+  /* background: rgb(156, 149, 149); */
+}
+
+.about img {
+  border-radius: 50%;
+  max-width: 70%;
+}
+
+/* skills section sytling starts from here! */
+
+.skills {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgb(215, 224, 224);
+}
+
+.skills-text {
+  width: 75%;
+}
+
+.progress {
+  margin-top: 0.8rem;
+  height: 10px;
+  margin-bottom: 2rem;
+}
+
+.progress-bar {
+  background: linear-gradient(to right, rgb(53, 162, 44), rgb(81, 81, 156));
+}
+
+/* Education and Experince  */
+.education-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("images/2.jpg");
+  background-size: cover;
+  color: white;
+}
+
+.box label {
+  font-size: 1.3rem;
+  padding: 3px 10px;
+  border: 2px solid #35a22c;
+}
+
+.box p {
+  color: rgba(216, 224, 231, 0.753);
+}
+
+/* Hobbies section */
+
+.hobbies {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hobbies-text {
+  text-align: center;
+  width: 60%;
+}
+
+/* Footer section styling */
+.footer {
+  background-color: #222222;
+}
+
+.fab {
+  border: 1px solid #222222;
+  padding: 8px 12px;
+  border-radius: 10px;
+  /* color: white;  */
+  color: #35a22c;
+  font-size: 1.1rem;
+  transition: 0.3s;
+}
+
+.icons .fab:hover {
+  border: 1px solid #35a22c;
+  color: #35a22c !important;
+}
+
+.icons p {
+  color: white;
+}
+
+@media screen and (max-width: 480px) {
+  .navbar-brand {
+    padding-left: 0rem;
+  }
+  .profile {
+    position: absolute;
+    top: 18%;
+    left: 4%;
+  }
+
+  .nop,
+  .nopadding {
+    padding: 0px;
+    margin: 0px;
+  }
+
+  /* in small screen devices the skills text aligns to the center */
+  .skills {
+    /* background: chocolate; */
+  }
+  .skills-text {
+    width: 93%;
+  }
+
+  .skills-text p {
+    text-align: justify;
+  }
+
+  .row {
+    margin: 1rem;
+  }
+  .hobbies-text {
+    text-align: justify;
+    width: 93%;
+  }
+}
