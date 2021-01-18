@@ -7,13 +7,13 @@
 body {
   font-family: calibri;
   font-size: 1rem;
-  text-align: justify;
 }
 
 #about p,
 #skills p,
 .hobbies p {
   text-indent: 5rem;
+  text-align: justify;
 }
 
 .home-header {
