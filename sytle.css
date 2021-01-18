@@ -10,6 +10,12 @@ body {
   text-align: justify;
 }
 
+#about p,
+#skills p,
+.hobbies p {
+  text-indent: 5rem;
+}
+
 .home-header {
   height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
@@ -23,8 +29,12 @@ body {
   padding-left: 5rem;
 }
 
-.navbar-nav .nav-link {
+.navbar-nav .nav-item {
   padding-right: 2.5rem !important ;
+}
+
+.nav-link:hover {
+  color: #2de91b !important;
 }
 
 .navbar-brand,
