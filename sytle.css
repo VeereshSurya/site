@@ -13,7 +13,7 @@ body {
 .home-header {
   height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("/images/1.jpg");
+    url("images/1.jpg");
   background-size: cover;
 }
 .navbar-brand {
@@ -96,14 +96,13 @@ body {
 /* Hobbies section */
 
 .hobbies {
-  text-align: center;
+  text-align: justify;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .hobbies-text {
-  text-align: center;
   width: 60%;
 }
 
